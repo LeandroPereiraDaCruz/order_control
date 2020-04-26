@@ -1,0 +1,23 @@
+{
+  "name": "order_control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts",
+    "linter": "tslint -c tslint.json 'src/**/*.ts' -p tsconfig.json",
+    "linter-fix": "tslint -c tslint.json 'src/**/*.ts' --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "tslint": "^6.1.1",
+    "tslint-config-semistandard": "^8.0.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
